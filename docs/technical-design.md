@@ -13,7 +13,7 @@ Degenbox introduces a bundled approach to meme token trading through its "Box" s
 ## System Architecture
 
 ### Technical Design
-![Techinal Design](./img/degenbox-technical-design.jpg)
+![Techinal Design](./img/degenbox-technical-design.png)
 
 ### Core Components
 
