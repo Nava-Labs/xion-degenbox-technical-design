@@ -98,7 +98,7 @@ Degenbox introduces a bundled approach to meme token trading through its "Box" s
 ## Box Price Mechanics
 
 ### Box Example
-![Box Example](./img/degenbox-box-example.jpg)
+![Box Example](./img/degenbox-box-example.png)
 
 ### Price Oracle Integration
 
