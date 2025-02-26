@@ -31,6 +31,7 @@ Degenbox introduces a bundled approach to meme token trading through its "Box" s
                symbol: string
                chain: string
                address: address
+               amount: usize
            }]
        }
        ```
@@ -98,6 +99,18 @@ Degenbox introduces a bundled approach to meme token trading through its "Box" s
 
 ### Box Example
 ![Box Example](./img/degenbox-box-example.jpg)
+
+### Price Oracle Integration
+
+1. **Price Feed Contract**
+   - Acts as the on-chain oracle for token pricing
+   - Maintains current prices for all tokens in the boxes
+
+2. **DRS Price Updates**
+   - DRS serves as the oracle data provider
+   - Monitors prices across multiple sources for accuracy
+   - Updates price feed contract at regular intervals
+   - Implements emergency update mechanism for high volatility periods
 
 ### Price Calculation
 1. **Initial Box Price**
